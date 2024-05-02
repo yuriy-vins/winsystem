@@ -1,0 +1,185 @@
+BODY {
+    /* Цвет фона веб-страницы */
+    background: rgb(9, 149, 241);
+    margin: auto;
+}
+
+A {
+    /* Цвет ссылок */
+    color: white;
+}
+
+A:visited {
+    /* Цвет посещенных ссылок */
+    color: aqua;
+}
+
+A:hover {
+    /* Цвет ссылок при наведении на них мышью*/
+    color: red;
+}
+
+HEADER {
+    /*Зафиксировать контейнер div , чтобы он не двигался.*/
+    position: fixed;
+    width: 100%;
+    height: 4.7%;
+    padding-top: 2.50%;
+    padding-bottom: 2.25%;
+    z-index: 5;
+    background-color: rgba(0, 0, 204, 0.7);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#site_name {
+    width: 20%;
+    padding-left: 15%;
+    margin-top: -2%;
+    /*background-color: red;*/
+    /*Свойство vw - позволяет сделать шрифт "резиновым".*/
+    font-size: 1.2vw;
+    /*Свойство float: позволяет примыкать (плыть) контейнерам друг за другом.*/
+    float: left;
+    color: white;
+}
+
+.navigator {
+    width: 60%;
+    /*background-color: green;*/
+    float: left;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+#main {
+    padding-right: 2%;
+    font-size: 1.5vw;
+    color: white;
+}
+
+#all_products {
+    padding-right: 2%;
+    font-size: 1.5vw;
+    color: white;
+}
+
+#besplatnye {
+    padding-right: 2%;
+    font-size: 1.5vw;
+    color: white;
+}
+
+#platnye {
+    padding-right: 2%;
+    font-size: 1.5vw;
+    color: white;
+}
+
+#contacts {
+    padding-right: 2%;
+    font-size: 1.5vw;
+    color: white;
+}
+
+#background {
+    position: static;
+    width: 100%;
+    height: 46%;
+    padding-top: 23%;
+    padding-bottom: 23%;
+    /*Свойство no-repeat - не позволяет картинке размножаться.
+      Свойство center - выравнивает содержимое картинки по центру.
+      Свойство top - позволяет примыкать верхней стороной картинки к самому верху предшествующего блока.
+      Свойство fixed - что то там фиксирует, но мне пока что не пригодилось*/
+    background: url(img/system_bg.jpg) no-repeat center top/*fixed*/
+    ;
+    /*Следующие свойства, имеющие префиксы по ходу для настроек в других браузерах.*/
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+    /*Свойство cover - позволяет картинке становиться "резиновой", подстраиваться под размер родительского контейнера.*/
+    background-size: cover;
+}
+
+#index_section {
+    float: left;
+    width: 65%;
+    height: 60%;
+    /*background-color: blueviolet;*/
+}
+
+SECTION {
+    margin-top: 6.9%;
+    float: left;
+    width: 65%;
+    height: 60%;
+    /*background-color: blueviolet;*/
+}
+
+.index_header_post {
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    background-color: blue;
+    font-size: 1.5vw;
+}
+
+.header_post {
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    background-color: blue;
+    font-size: 1.5vw;
+}
+
+.index_post {
+    background-color: white;
+    margin: auto;
+    padding-left: 5%;
+    padding-bottom: 41.5%;
+    font-size: 1.3vw;
+}
+
+.post {
+    background-color: white;
+    margin: auto;
+    padding-left: 5%;
+    padding-bottom: 44%;
+    font-size: 1.3vw;
+}
+
+.index_menue {
+    float: right;
+    width: 35%;
+    height: 60%;
+    padding-top: 30%;
+    /*background-color: green;*/
+}
+
+.menue {
+    float: right;
+    width: 35%;
+    height: 70%;
+    padding-top: 40%;
+    /*background-color: green;*/
+}
+
+FOOTER {
+    /*Свойство clear: both; - позволяет остановить плыть плавающим контейнерам, и перейти в обычный режим.*/
+    clear: both;
+    width: 100%;
+    height: 6%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: blue;
+}
+
+.footer_content {
+    font-size: 1.4vw;
+    color: white;
+    margin-right: 5%;
+    padding-left: 10%;
+}
